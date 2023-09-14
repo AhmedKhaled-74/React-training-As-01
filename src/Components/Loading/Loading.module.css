@@ -1,0 +1,10 @@
+.loadingScreen {
+  transition: all 0.25s;
+  background-color: var(--darkest-teal);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 5;
+}

@@ -1,0 +1,11 @@
+.imgBox {
+  cursor: pointer;
+  & .overlay {
+    transition: opacity 0.5s;
+    color: white;
+    font-size: 80px;
+  }
+  &:hover .overlay {
+    opacity: 80% !important;
+  }
+}

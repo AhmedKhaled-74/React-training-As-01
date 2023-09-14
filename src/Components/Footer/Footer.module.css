@@ -1,0 +1,15 @@
+.bgDarkestTeal {
+  background-color: var(--darkest-teal);
+}
+.socialIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 2px solid white;
+  & i {
+    font-size: 18px;
+  }
+}
