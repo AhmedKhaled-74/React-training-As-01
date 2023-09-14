@@ -22,7 +22,7 @@ export default function Contact() {
             <div className="line bgDarkTeal"></div>
           </div>
           <form
-            className="container d-flex flex-column gap-5"
+            className="container d-flex flex-column gap-5 mt-5"
             onSubmit={handleSubmit}
           >
             <div className="position-relative">
@@ -52,7 +52,7 @@ export default function Contact() {
                 userAge :
               </label>
               <input
-                type="text"
+                type="number"
                 id="userAge"
                 placeholder="userAge"
                 className="form-control shadow z-index-1 position-relative"
@@ -69,7 +69,7 @@ export default function Contact() {
                 userEmail :
               </label>
               <input
-                type="text"
+                type="email"
                 id="userEmail"
                 placeholder="userEmail"
                 className="form-control shadow z-index-1 position-relative"
@@ -86,7 +86,7 @@ export default function Contact() {
                 userPassword :
               </label>
               <input
-                type="text"
+                type="password"
                 id="userPassword"
                 placeholder="userPassword"
                 className="form-control shadow z-index-1 position-relative"
